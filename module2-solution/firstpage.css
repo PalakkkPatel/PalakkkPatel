@@ -1,0 +1,81 @@
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 35px;
+}
+#one {
+  margin: 15px;
+  padding: 0px;
+  width: 100%;
+  position: relative;
+}
+.common {
+  background-color: #999;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  width: 30%;
+  margin: 5px;
+  position: relative;
+  text-align: justify;
+  float: left;
+}
+#commonID {
+  width: 20%;
+  text-align: center;
+  border-style: solid;
+  border-top: 0px;
+  border-right: 0px;
+  border-width: 1px;
+  font-family: "Otomanopee One", sans-serif;
+  font-size: 100%;
+  float: right;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin: 0px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.chicken {
+  background-color: #d59898;
+}
+.beef {
+  border-color: black;
+  background-color: #c14543;
+  color: white;
+}
+.sushi {
+  background-color: #e5d198;
+}
+@media only screen and (max-width: 991px) {
+  #one {
+    margin: 0px;
+  }
+  .chickenBox {
+    width: 45%;
+  }
+  .beefBox {
+    width: 45%;
+  }
+  .sushiBox {
+    width: 93.5%;
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .chickenBox {
+    width: 95%;
+  }
+  .beefBox {
+    width: 95%;
+    margin-top: 10px;
+  }
+  .sushiBox {
+    width: 95%;
+    margin-top: 10px;
+  }
+}
